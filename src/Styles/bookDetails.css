@@ -1,0 +1,63 @@
+.activeBook{
+    background-color: #71C5F461;
+    color: white;
+    margin: 0px 1rem;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    box-shadow: 0px 6px 4px 0px #00000040;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+.content > h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.author, .publish-date, .book-desc{
+    color: rgba(255, 255, 255, 0.505);
+}
+.author{
+    font-weight: 700;
+    font-size: 20px;
+}
+.split{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    font-weight: 700;
+}
+.rating > span{
+    border-left: 1px solid #71C5F461;
+    padding: 0px 10px;
+}
+.rating > span:first-child{
+    border: none;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.book-btn{
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+}
+
+.book-btn > button{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid white;
+    background: transparent;
+    padding: 5px 1rem;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+}
